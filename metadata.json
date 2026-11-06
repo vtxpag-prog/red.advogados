@@ -1,0 +1,6 @@
+{
+  "name": "RED Advogados Associados - Presença Digital",
+  "description": "Construtor de Presença Digital e Portal Institucional para RED Advogados Associados (Dr. Reinaldo Eustáquio Dias & Dra. Paula da Silva Mattos). Belo Horizonte/MG.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

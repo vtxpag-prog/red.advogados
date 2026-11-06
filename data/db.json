@@ -1,0 +1,237 @@
+{
+  "users": [
+    {
+      "id": "usr-master-001",
+      "username": "master_admin",
+      "passwordHash": "admin3256",
+      "name": "Master Admin (Diretoria Técnica)",
+      "role": "master_admin",
+      "mustChangePassword": false,
+      "createdAt": "2026-11-06T15:57:00.193Z"
+    },
+    {
+      "id": "usr-reinaldo-002",
+      "username": "Reinaldo",
+      "passwordHash": "mudar1234",
+      "name": "Dr. Reinaldo Eustáquio Dias",
+      "role": "admin",
+      "mustChangePassword": true,
+      "oab": "111.989",
+      "cpf": "111.989.000-00",
+      "temporaryPassword": "mudar1234",
+      "createdAt": "2026-11-06T15:57:00.193Z"
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead-mw55qwfvnr2f",
+      "nome": "Dr. Fernando Toledo",
+      "email": "fernando.toledo@mg.gov.br",
+      "cpf": "123.456.789-00",
+      "telefone": "(31) 99123-4567",
+      "processo": "5023912-11.2024.8.13.0024",
+      "area": "Direito Administrativo & Servidores Públicos",
+      "mensagem": "Notificação de processo administrativo",
+      "status": "novo",
+      "createdAt": "2026-11-06T15:57:08.923Z",
+      "updatedAt": "2026-11-06T15:57:08.923Z",
+      "notes": [
+        {
+          "id": "note-1793980628923",
+          "author": "Sistema Web",
+          "text": "Visita e solicitação de atendimento registradas pelo formulário do site.",
+          "createdAt": "2026-11-06T15:57:08.923Z"
+        }
+      ],
+      "source": "Caixa de Coleta de Visita (Site)"
+    },
+    {
+      "id": "lead-001",
+      "nome": "Marcos Vinicius de Souza",
+      "email": "marcos.souza@gmail.com",
+      "cpf": "089.452.126-30",
+      "telefone": "(31) 99874-5521",
+      "processo": "5014829-12.2024.8.13.0024",
+      "area": "Direito Administrativo & Servidores Públicos",
+      "mensagem": "Fui notificado com abertura de sindicância administrativa no meu órgão estadual. Preciso de auxílio urgente.",
+      "status": "novo",
+      "createdAt": "2026-11-06T11:57:00.193Z",
+      "updatedAt": "2026-11-06T11:57:00.193Z",
+      "notes": [
+        {
+          "id": "n-1",
+          "author": "Sistema",
+          "text": "Lead recebido através da Caixa de Coleta do Site.",
+          "createdAt": "2026-11-06T11:57:00.193Z"
+        }
+      ],
+      "source": "Formulário do Site"
+    },
+    {
+      "id": "lead-002",
+      "nome": "Camila Fernandes Costa",
+      "email": "camila.costa@empresa.com.br",
+      "cpf": "124.632.786-90",
+      "telefone": "(31) 98711-4030",
+      "processo": "",
+      "area": "Direito Empresarial & Gestão de Riscos",
+      "mensagem": "Queremos revisar nossos contratos de prestação de serviços e evitar passivos trabalhistas/cíveis.",
+      "status": "em_atendimento",
+      "createdAt": "2026-11-05T15:57:00.193Z",
+      "updatedAt": "2026-11-06T09:57:00.193Z",
+      "notes": [
+        {
+          "id": "n-2",
+          "author": "Reinaldo",
+          "text": "Entrei em contato pelo WhatsApp. Cliente solicitou proposta de diagnóstico preventivo.",
+          "createdAt": "2026-11-06T09:57:00.193Z"
+        }
+      ],
+      "source": "Formulário do Site"
+    },
+    {
+      "id": "lead-003",
+      "nome": "Prof. Sérgio Augusto Moreira",
+      "email": "sergio.moreira@educacao.mg.gov.br",
+      "cpf": "045.789.321-15",
+      "telefone": "(31) 99120-8844",
+      "processo": "0024.19.854.120-1",
+      "area": "Direito Administrativo & Servidores Públicos",
+      "mensagem": "Cálculo de quinquênios e férias-prêmio represadas após aposentadoria.",
+      "status": "agendado",
+      "createdAt": "2026-11-04T15:57:00.193Z",
+      "updatedAt": "2026-11-05T15:57:00.193Z",
+      "notes": [
+        {
+          "id": "n-3",
+          "author": "Reinaldo",
+          "text": "Reunião confirmada no escritório presencial (Av. do Contorno, 7174) para amanhã às 15h.",
+          "createdAt": "2026-11-05T15:57:00.193Z"
+        }
+      ],
+      "source": "Formulário do Site"
+    },
+    {
+      "id": "lead-004",
+      "nome": "Juliana Beatriz de Castro",
+      "email": "juliana.castro.arte@gmail.com",
+      "cpf": "741.852.963-00",
+      "telefone": "(31) 98455-7090",
+      "processo": "",
+      "area": "Direito da Cultura & Editais",
+      "mensagem": "Dúvidas na prestação de contas de edital estadual da Lei Paulo Gustavo.",
+      "status": "proposta",
+      "createdAt": "2026-11-02T15:57:00.193Z",
+      "updatedAt": "2026-11-04T15:57:00.193Z",
+      "notes": [
+        {
+          "id": "n-4",
+          "author": "Reinaldo",
+          "text": "Minuta de contrato de assessoria jurídica enviada para assinatura.",
+          "createdAt": "2026-11-04T15:57:00.193Z"
+        }
+      ],
+      "source": "Simulador WhatsApp"
+    },
+    {
+      "id": "lead-005",
+      "nome": "Eduardo Martins Peixoto",
+      "email": "edu.martins@yahoo.com.br",
+      "cpf": "556.889.123-44",
+      "telefone": "(31) 99763-1200",
+      "processo": "5003412-44.2023.8.13.0024",
+      "area": "Direito Cível, Indenizações & Contratos",
+      "mensagem": "Ação indenizatória julgada procedente. Alvará expedido com sucesso.",
+      "status": "concluido",
+      "createdAt": "2026-10-22T15:57:00.193Z",
+      "updatedAt": "2026-11-05T15:57:00.193Z",
+      "notes": [
+        {
+          "id": "n-5",
+          "author": "Reinaldo",
+          "text": "Prestação de contas efetuada. Cliente extremamente satisfeito.",
+          "createdAt": "2026-11-05T15:57:00.193Z"
+        }
+      ],
+      "source": "Indicação"
+    },
+    {
+      "id": "lead-006",
+      "nome": "Dra. Beatriz Helena Fontes",
+      "email": "beatriz.fontes@medicina.ufmg.br",
+      "cpf": "382.910.455-82",
+      "telefone": "(31) 98844-3321",
+      "processo": "5048123-09.2024.8.13.0024",
+      "area": "Direito de Família & Sucessões",
+      "mensagem": "Inventário extrajudicial com partilha amigável de imóveis em Belo Horizonte.",
+      "status": "concluido",
+      "createdAt": "2026-11-03T10:15:00.193Z",
+      "updatedAt": "2026-11-06T11:20:00.193Z",
+      "notes": [
+        {
+          "id": "n-6",
+          "author": "Reinaldo",
+          "text": "Escritura pública lavrada em cartório e partilha homologada com sucesso.",
+          "createdAt": "2026-11-06T11:20:00.193Z"
+        }
+      ],
+      "source": "Caixa de Coleta de Visita (Site)"
+    },
+    {
+      "id": "lead-007",
+      "nome": "Henrique Alvarenga Silva",
+      "email": "henrique@logtransportes.com.br",
+      "cpf": "629.418.730-19",
+      "telefone": "(31) 99312-8877",
+      "processo": "0024.23.119.820-4",
+      "area": "Direito Tributário & Execuções Fiscais",
+      "mensagem": "Execução fiscal estadual com penhora de faturamento. Necessidade de exceção de pré-executividade.",
+      "status": "proposta",
+      "createdAt": "2026-11-04T14:30:00.193Z",
+      "updatedAt": "2026-11-05T16:00:00.193Z",
+      "notes": [
+        {
+          "id": "n-7",
+          "author": "Reinaldo",
+          "text": "Análise da CDA realizada. Tese de prescrição intercorrente identificada. Proposta de honorários enviada.",
+          "createdAt": "2026-11-05T16:00:00.193Z"
+        }
+      ],
+      "source": "Caixa de Coleta de Visita (Site)"
+    },
+    {
+      "id": "lead-008",
+      "nome": "Renata Vasconcelos Ribeiro",
+      "email": "renata.vasconcelos@policiacivil.mg.gov.br",
+      "cpf": "812.339.401-55",
+      "telefone": "(31) 99650-1122",
+      "processo": "5019234-88.2024.8.13.0024",
+      "area": "Direito Administrativo & Servidores Públicos",
+      "mensagem": "Promoção por escolaridade adicional e reenquadramento funcional na carreira.",
+      "status": "concluido",
+      "createdAt": "2026-10-28T09:00:00.193Z",
+      "updatedAt": "2026-11-04T17:00:00.193Z",
+      "notes": [
+        {
+          "id": "n-8",
+          "author": "Reinaldo",
+          "text": "Mandado de segurança impetrado com liminar deferida para inclusão em folha.",
+          "createdAt": "2026-11-04T17:00:00.193Z"
+        }
+      ],
+      "source": "Formulário do Site"
+    }
+  ],
+  "settings": {
+    "avisoBanner": "Atendimento presencial na Av. do Contorno, 7174 (Santo Antônio) ou por videoconferência com os titulares.",
+    "mostrarAviso": true,
+    "telefonePrincipal": "(31) 98334-7116",
+    "emailPrincipal": "reinaldodias.advogado@gmail.com",
+    "endereco": "Avenida do Contorno, 7174 — Sala 09 — Santo Antônio — Belo Horizonte/MG — CEP 30110-047",
+    "layoutTheme": "classic",
+    "permiteCadastroPublico": true,
+    "updatedAt": "2026-11-06T15:57:00.193Z",
+    "updatedBy": "master_admin"
+  },
+  "sessions": {}
+}
